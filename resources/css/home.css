@@ -1,7 +1,10 @@
 body{
   color:#453221;
 }
+.home-navbar {
+  min-width: 3000px;
 
+}
 .home-header {
   background-color:rgb(175,209,38);
 }

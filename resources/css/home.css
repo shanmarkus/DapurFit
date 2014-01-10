@@ -1,0 +1,121 @@
+.home-header {
+  background-color:rgb(175,209,38);
+}
+
+.paddingTop10px{
+  padding-top: 10px;
+}
+
+.paddingTop20px{
+  padding-top: 20px;
+}
+
+.paddingTop30px{
+  padding-top: 30px;
+}
+
+
+.marginBottom0px{
+  margin-bottom: 0px !important;
+}
+
+#footer {
+  height: 60px;
+  background-color:rgb(175,209,38);
+  margin-top: -20px;
+}
+
+.footerImage{
+  margin-top: -25px;
+}
+
+.footerSosMed{
+  margin-top: 5px;
+}
+
+
+.container{
+ 
+}
+.margin-bottom-40{
+  margin-bottom: 40px;
+}
+
+.nav-tabs > li {
+  padding: 0px 27px !important;
+}
+
+.header-logo{
+  margin-top: 15px;
+  background-image: url('../img/logo.png');
+  height:60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-center{
+  text-align: center;
+}
+
+
+.margin-top30{
+  margin-top: 30px !important;
+}
+.margin-top20 {
+ margin-top: 20px !important;
+}
+.margin-bottom20{
+  margin-bottom: 20px;
+}
+.margin-left20{
+  margin-left: 20px;
+}
+.margin-right20{
+  margin-right: 20px;
+}
+
+
+.padding-right20{
+  padding-right: 20px
+}
+.padding20{
+  padding:20px;
+}
+.padding-bottom70{
+  padding-bottom: 70px
+}
+.paddinglr20{
+  padding:0px 20px;
+}
+
+p.content-header{
+  font-weight: bold
+}
+
+/*Contact*/
+hr{
+  margin:0px 0px !important;
+  border-top: 1px solid rgb(175,209,38);
+  border-bottom: 1px solid #ffffff;
+}
+.line-weight1{
+  line-height: 1;
+}
+p.text-wrap{
+  text-wrap:normal;
+}
+p.width11{
+  width: 11em;
+}
+
+.box{
+  border: 1px solid ;
+  border-color: rgb(175,209,38);
+  border-radius: 5px;
+  padding:18px;
+}
+
+.left-border{
+  border-left: 1px solid rgb(175,209,38)
+}
+
+

@@ -7,6 +7,7 @@
   <!--   <link href="./resources/css/bootstrap-responsive.css" rel="stylesheet"> -->
   <link href="./resources/css/bootstrap.css" rel="stylesheet">
   <link href="./resources/css/home.css" rel="stylesheet">
+  <link href="./resources/css/simpletextrotator.css" rel="stylesheet">
   <title>Your Website</title>
 </head>
 
@@ -70,6 +71,7 @@
                   <div class="row">
                     <div class="footerImage span1"><img src="./img/footer.png"></div>
                     <p class="footerText">30% Gym 70% Diet, ABS made in kitchen</p>
+                    <p class="demo1">Super <span class="rotate">Simple, Customizable, Light Weight, Easy</span> Text Rotator with Style</p>
                   </div>
                   <div class="row">
                     <p> copyright by bla bla bla bla </p>
@@ -101,6 +103,32 @@
       <!--     Script -->
       <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
       <script src="./resources/js/bootstrap.min.js"></script>
+      <script src="./resources/js/jquery.simple-text-rotator.js"></script>
+      <script>
+      $(document).ready(function(){
+        $(".demo1 .rotate").textrotator({
+          animation: "fade",
+          speed: 1000
+        });
+        $(".demo2 .rotate").textrotator({
+          animation: "flip",
+          speed: 1250
+        });
+        $(".demo3 .rotate").textrotator({
+          animation: "flipCube",
+          speed: 1500
+        });
+        $(".demo4 .rotate").textrotator({
+          animation: "flipUp",
+          speed: 1750
+        });
+        $(".demo5 .rotate").textrotator({
+          animation: "spin",
+          speed: 2000
+        });
+      });
+
+      </script>
 
 
     </body>

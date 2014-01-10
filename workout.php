@@ -8,6 +8,7 @@
   <link href="./resources/css/bootstrap.css" rel="stylesheet">
   <link href="./resources/css/home.css" rel="stylesheet">
   <link href="./resources/css/workout.css" rel="stylesheet">
+  <link href="./resources/css/simpletextrotator.css" rel="stylesheet">
   <title>Your Website</title>
 </head>
 

@@ -1,45 +1,46 @@
-<<<<<<< HEAD
-<!DOCTYPE HTML>
+    <!DOCTYPE HTML>
 
-<html>
+    <html>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <!--   <link href="./resources/css/bootstrap-responsive.css" rel="stylesheet"> -->
-  <link href="./resources/css/bootstrap.css" rel="stylesheet">
-  <link href="./resources/css/home.css" rel="stylesheet">
-  <link href="./resources/css/simpletextrotator.css" rel="stylesheet">
-  <title>Your Website</title>
-</head>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <!--   <link href="./resources/css/bootstrap-responsive.css" rel="stylesheet"> -->
+      <link href="./resources/css/bootstrap.css" rel="stylesheet">
+      <link href="./resources/css/home.css" rel="stylesheet">
+      <link href="./resources/css/simpletextrotator.css" rel="stylesheet">
 
-<body>
-  <div class="navbar navbar-static-top home-header" role="navigation">
-    <div class="container">
-      <div class="row">
-        <div class="header-logo"></div>
-      </div>
-      <div class="row">
-        <div class="span12 home-navbar">
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
-              <li><a href="#tab1" data-toggle="tab">HOME</a></li>
-              <li><a href="#tab2" data-toggle="tab">ABOUT</a></li>
-              <li><a href="#tab2" data-toggle="tab">GALLERY</a></li>
-              <li><a href="#tab2" data-toggle="tab">WORKOUT</a></li>
-              <li><a href="#tab2" data-toggle="tab">PACKAGE INFO</a></li>
-              <li  class="active"><a href="#tab2" data-toggle="tab">CONTACT</a></li>
-            </ul>
+      <title>Your Website</title>
+    </head>
+
+    <body>
+      <div class="navbar navbar-static-top home-header" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="header-logo"></div>
+          </div>
+          <div class="row">
+            <div class="span12 home-navbar">
+              <div class="tabbable"> <!-- Only required for left/right tabs -->
+                <ul class="nav nav-tabs">
+                  <li><a href="#tab1" data-toggle="tab">HOME</a></li>
+                  <li><a href="#tab2" data-toggle="tab">ABOUT</a></li>
+                  <li><a href="#tab2" data-toggle="tab">GALLERY</a></li>
+                  <li><a href="#tab2" data-toggle="tab">WORKOUT</a></li>
+                  <li><a href="#tab2" data-toggle="tab">PACKAGE INFO</a></li>
+                  <li  class="active"><a href="#tab2" data-toggle="tab">CONTACT</a></li>
+                </ul>
+
+              </div>
+            </div>
 
           </div>
         </div>
-        
       </div>
-    </div>
-  </div>
-  <!--  Header Division -->
+      <!--  Header Division -->
 
-  <!-- Body Division -->
+      <!-- Body Division -->
       <!-- Carousel
+
       ================================================== -->
       <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
@@ -68,70 +69,71 @@
           <div class="row">
             <div class="">
               <div class="row">
-                <div class="span5">
+                <div class="span6">
                   <div class="row">
-                    <div class="footerImage span1"><img src="./img/footer.png"></div>
+
+                    <img class="footerImage" src="./img/footer.png">
                     <p class="footerText">30% Gym 70% Diet, ABS made in kitchen</p>
                     <p class="demo1">Super <span class="rotate">Simple, Customizable, Light Weight, Easy</span> Text Rotator with Style</p>
                   </div>
                   <div class="row">
-                    <p> copyright by bla bla bla bla </p>
-                  </div>
-                </div>
-                <div class="offset2 span5">
-                  <div class="row footerSosMed">
-                    <div class="span2">
-                      <img src="./img/twitter.png"> &nbsp;
-                      <img src="./img/instagram.png"> &nbsp;
-                      <img src="./img/facebook.png"> &nbsp;
-                      <img src="./img/v.png">
+                    <p> <div class="text-white">Copyright © 2013 DapurFit. All rights reserved.</div><div> Term of use | Privacy Policy</div><p>
                     </div>
-                    <p> site map  | contact us </p>
-                  </div>
-                  <div class="row">
-                    <div class="offset1">
-                      <p> Fast Response: Julius xxxxxxxx </p>
-                    </div> 
+                  </div> <!-- close span5 -->
+                  <div class="span6">
+
+                    <div class="row text-right">
+                      <div class="footerSosMed">
+                        <img src="./img/twitter.png"> &nbsp;
+                        <img src="./img/instagram.png"> &nbsp;
+                        <img src="./img/facebook.png"> &nbsp;
+                        <img src="./img/v.png">
+                      </div>
+                      <div>Site Map  | Contact Us </div>
+                    </div>
+                    <div class="row text-right">
+                      <div class="offset1 text-right">
+                        <p> <div class="text-white">Fast Response Julius : 081297498061 </p>
+                      </div> 
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div><!-- /.navbar -->
+              </div><!-- /.navbar -->
+            </div>
           </div>
         </div>
-      </div>
 
 
-      <!--     Script -->
-      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-      <script src="./resources/js/bootstrap.min.js"></script>
-      <script src="./resources/js/jquery.simple-text-rotator.js"></script>
-      <script>
-      $(document).ready(function(){
-        $(".demo1 .rotate").textrotator({
-          animation: "fade",
-          speed: 1000
+        <!--     Script -->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="./resources/js/bootstrap.min.js"></script>
+        <script src="./resources/js/jquery.simple-text-rotator.js"></script>
+        <script>
+        $(document).ready(function(){
+          $(".demo1 .rotate").textrotator({
+            animation: "fade",
+            speed: 1000
+          });
+          $(".demo2 .rotate").textrotator({
+            animation: "flip",
+            speed: 1250
+          });
+          $(".demo3 .rotate").textrotator({
+            animation: "flipCube",
+            speed: 1500
+          });
+          $(".demo4 .rotate").textrotator({
+            animation: "flipUp",
+            speed: 1750
+          });
+          $(".demo5 .rotate").textrotator({
+            animation: "spin",
+            speed: 2000
+          });
         });
-        $(".demo2 .rotate").textrotator({
-          animation: "flip",
-          speed: 1250
-        });
-        $(".demo3 .rotate").textrotator({
-          animation: "flipCube",
-          speed: 1500
-        });
-        $(".demo4 .rotate").textrotator({
-          animation: "flipUp",
-          speed: 1750
-        });
-        $(".demo5 .rotate").textrotator({
-          animation: "spin",
-          speed: 2000
-        });
-      });
 
-      </script>
+        </script>
 
+      </body>
 
-    </body>
-
-    </html>
+      </html>

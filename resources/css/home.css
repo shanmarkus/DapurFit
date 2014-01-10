@@ -1,7 +1,10 @@
+body{
+  color:#453221;
+}
 .home-navbar {
   min-width: 3000px;
-}
 
+}
 .home-header {
   background-color:rgb(175,209,38);
 }
@@ -23,24 +26,29 @@
   margin-bottom: 0px !important;
 }
 
+
+
+/*Footer*/
 #footer {
-  height: 60px;
+  height: 90px;
   background-color:rgb(175,209,38);
   margin-top: -20px;
 }
 
 .footerImage{
-  margin-top: -25px;
+  float:left;
+  margin-top: -18px;
 }
 
 .footerSosMed{
   margin-top: 5px;
 }
-
-
-.container{
- 
+.footerText{
+  float:left;
+  margin-top:25px 
 }
+
+
 .margin-bottom-40{
   margin-bottom: 40px;
 }
@@ -59,7 +67,9 @@
 .text-center{
   text-align: center;
 }
-
+.text-right{
+  text-align: right;
+}
 
 .margin-top30{
   margin-top: 30px !important;
@@ -90,6 +100,26 @@
 .paddinglr20{
   padding:0px 20px;
 }
+
+
+
+
+
+.navbar .nav > li > a{
+  color: #453221;
+}
+
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus{
+  background-color: white;
+}
+
+
+.text-white{
+  color:white;
+}
+
+
 
 p.content-header{
   font-weight: bold

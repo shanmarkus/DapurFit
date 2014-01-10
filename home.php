@@ -72,7 +72,7 @@
                     <p class="footerText">30% Gym 70% Diet, ABS made in kitchen</p>
                   </div>
                   <div class="row">
-                    <p> copyright by bla bla bla bla </p>
+                    <p> Copyright © 2013 DapurFit. All rights reserved</p>Term of use | Privacy Policy
                   </div>
                 </div>
                 <div class="offset2 span5">
@@ -83,7 +83,7 @@
                       <img src="./img/facebook.png"> &nbsp;
                       <img src="./img/v.png">
                     </div>
-                    <p> site map  | contact us </p>
+                    <p> Site Map  | Contact Us </p>
                   </div>
                   <div class="row">
                     <div class="offset1">

@@ -1,3 +1,7 @@
+body{
+  color:#453221;
+}
+
 .home-header {
   background-color:rgb(175,209,38);
 }
@@ -19,6 +23,9 @@
   margin-bottom: 0px !important;
 }
 
+
+
+
 #footer {
   height: 60px;
   background-color:rgb(175,209,38);
@@ -34,9 +41,6 @@
 }
 
 
-.container{
- 
-}
 .margin-bottom-40{
   margin-bottom: 40px;
 }
@@ -86,6 +90,24 @@
 .paddinglr20{
   padding:0px 20px;
 }
+
+
+
+
+
+.navbar .nav > li > a{
+  color: #453221;
+}
+
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus{
+  background-color: white;
+}
+
+
+
+
+
 
 p.content-header{
   font-weight: bold

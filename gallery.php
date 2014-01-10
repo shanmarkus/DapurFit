@@ -19,7 +19,7 @@
         <div class="header-logo"></div>
       </div>
       <div class="row">
-        <div class="span12">
+        <div class="span12 home-navbar">
           <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
               <li><a href="#tab1" data-toggle="tab">HOME</a></li>

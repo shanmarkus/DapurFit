@@ -6,3 +6,13 @@
   width: 296px;
   height: 264px;
 }
+
+.imageDiv:hover{
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: url(/assets/svg/grayscale.svg);
+  filter: gray;
+}

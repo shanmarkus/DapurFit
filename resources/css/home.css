@@ -46,20 +46,31 @@ body{
 }
 
 .footerSosMed{
-  margin-top: 25px;
-  height: 29px; 
+  font-family: "din_next_lt_probold";
+  margin-top: 24px;
+  height: 22px; 
 }
-
+.copyright{
+  font-family: "din_next_lt_promedium"
+}
 
 a:link, a:active, a:visited{
   color:#453221;
 }
 .footerText{
+  font-family: "din_next_lt_probold";
   float:left;
   margin-top:25px;
   font-weight: bold;
 }
-
+.footer-link{
+  font-family: "din_next_lt_promedium"
+  float:right;
+}
+.footer-powered{
+  font-family: "din_next_lt_probold";
+  float:right;
+}
 
 .margin-bottom-40{
   margin-bottom: 40px;

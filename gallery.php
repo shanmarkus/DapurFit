@@ -9,6 +9,9 @@
   <link href="./resources/css/home.css" rel="stylesheet">
   <link href="./resources/css/gallery.css" rel="stylesheet">
   <link href="./resources/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="./resources/hovereffects/secondeffect.css" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/hovereffects/style.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="./resources/hovereffects/common.css" type="text/css" media="screen"/>
   <title>Your Website</title>
 </head>
 
@@ -46,66 +49,73 @@
             <div class="ImageRowContainer">
               <!--             Image first Row  -->
               <div class="row paddingTop20px">
+
                 <div class="span3">
-                  <a href="./img/Gallery/b.jpg" class="fancybox" title="Sample title"><img src="./img/Gallery/a.jpg" /></a>
-                </div>
-                <div class="span3">
-                 <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
-               </div>
-               <div class="span3">
-                 <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
-               </div>
-               <div class="span3">
-                 <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+                 <div class="view second-effect">
+                  <img src="./img/Gallery/a.jpg"/>
+                  <div class="mask">
+                   <a href="./img/Gallery/b.jpg" class="fancybox" title="Sample title">Read More</a>
+                 </div>
                </div>
              </div>
 
-             <!--  Image Second Row -->
-
-             <div class="row paddingTop20px">
-              <div class="span3">
-               <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
-             </div>
              <div class="span3">
-               <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
-             </div>
-             <div class="span3">
-               <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
-             </div>
-             <div class="span3">
-              <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+              <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
             </div>
-          </div>
-
-          <!--  Image Third Row -->
-
-          <div class="row paddingTop20px">
             <div class="span3">
-             <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+             <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
            </div>
            <div class="span3">
-             <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
+             <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
            </div>
-           <div class="span3">
-             <img class="gallery-imageDiv"src="./img/Gallery/c.jpg">
-           </div>
-           <div class="span3">
-            <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
-          </div>
-        </div>
+         </div>
 
-        <div class="row paddingTop20px">
-          <div class="offset5">
-            <p>1 2 3 4 5 .... Last Next> </p>
-          </div>
-        </div>
+         <!--  Image Second Row -->
 
+         <div class="row paddingTop20px">
+          <div class="span3">
+           <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+         </div>
+         <div class="span3">
+           <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
+         </div>
+         <div class="span3">
+           <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
+         </div>
+         <div class="span3">
+          <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+        </div>
       </div>
-      <div class="offset2">
 
+      <!--  Image Third Row -->
+
+      <div class="row paddingTop20px">
+        <div class="span3">
+         <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+       </div>
+       <div class="span3">
+         <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
+       </div>
+       <div class="span3">
+         <img class="gallery-imageDiv"src="./img/Gallery/c.jpg">
+       </div>
+       <div class="span3">
+        <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
       </div>
     </div>
-  </div><!-- /.Gallery -->
+
+    <div class="row paddingTop20px">
+      <div class="offset5">
+        <p>1 2 3 4 5 .... Last Next> </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="offset2">
+
+  </div>
+</div>
+</div><!-- /.Gallery -->
 </div>
 
 

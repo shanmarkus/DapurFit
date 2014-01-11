@@ -1,0 +1,256 @@
+.fontBlack{
+  font-family: Black;
+}
+
+.fontBlackCondensed{
+  font-family: BlackCondensed;
+}
+
+.fontBlackItalic{
+  font-family: BlackItalic;
+}
+
+.fontBold{
+  font-family: Bold;
+}
+
+.fontBoldCondensed{
+  font-family: BoldCondensed;
+}
+
+.fontBoldItalic{
+  font-family: BoldItalic;
+}
+
+.fontCondensed{
+  font-family: Condensed;
+}
+
+.fontHeavy{
+  font-family: Heavy;
+}
+
+.fontHeavyCondensed{
+  font-family: HeavyCondensed;
+}
+
+.fontHeavyItalic{
+  font-family: HeavyItalic;
+}
+
+.fontItalic{
+  font-family: Italic;
+}
+
+.fontLight{
+  font-family: Light;
+}
+
+.fontLightCondensed{
+  font-family: LightCondensed;
+}
+
+.fontLightItalic{
+  font-family: LightItalic;
+}
+
+.fontMedium{
+  font-family: Medium;
+}
+
+.fontMedium{
+  font-family: MediumCond;
+}
+
+.fontMediumItalic{
+  font-family: MediumItalic;
+}
+
+.fontRegular{
+  font-family: Regular;
+}
+
+.fontUltraLight{
+  font-family: UltraLight;
+}
+
+.fontUltraLightCond{
+  font-family: UltraLightCond;
+}
+
+.fontUltraLigthIt{
+  font-family: UltraLightIt;
+}
+
+.fontBold_0{
+  font-family: Bold_0;
+}
+
+.fontLight_0{
+  font-family: Light_0;
+}
+
+.fontMedium_0{
+  font-family: Medium_0;
+}
+
+.fontRegular_0{
+  font-family: Regular_0;
+}
+
+
+@font-face
+{
+font-family: Black;
+src: url(./Fonts/DINNextLTPro-Black.otf);
+}
+
+@font-face
+{
+font-family: BlackCondensed;
+src: url(./Fonts/DINNextLTPro-BlackCondensed.otf);
+}
+
+@font-face
+{
+font-family: BlackItalic;
+src: url(./Fonts/DINNextLTPro-BlackItalic.otf);
+}
+
+@font-face
+{
+font-family: Bold;
+src: url(./Fonts/DINNextLTPro-Bold.otf);
+}
+
+@font-face
+{
+font-family: BoldCondensed;
+src: url(./Fonts/DINNextLTPro-BoldCondensed.otf);
+}
+
+@font-face
+{
+font-family: BoldItalic;
+src: url(./Fonts/DINNextLTPro-BoldItalic.otf);
+}
+
+@font-face
+{
+font-family: Condensed;
+src: url(./Fonts/DINNextLTPro-Condensed.otf);
+}
+
+@font-face
+{
+font-family: Heavy;
+src: url(./Fonts/DINNextLTPro-Heavy.otf);
+}
+
+@font-face
+{
+font-family: HeavyCondensed;
+src: url(./Fonts/DINNextLTPro-HeavyCondensed.otf);
+}
+
+@font-face
+{
+font-family: HeavyItalic;
+src: url(./Fonts/DINNextLTPro-HeavyItalic.otf);
+}
+
+@font-face
+{
+font-family: Italic;
+src: url(./Fonts/DINNextLTPro-Italic.otf);
+}
+
+@font-face
+{
+font-family: Light;
+src: url(./Fonts/DINNextLTPro-Light.otf);
+}
+
+@font-face
+{
+font-family: Light;
+src: url(./Fonts/DINNextLTPro-Light.otf);
+}
+
+@font-face
+{
+font-family: LightCondensed;
+src: url(./Fonts/DINNextLTPro-LightCondensed.otf);
+}
+
+@font-face
+{
+font-family: LightItalic;
+src: url(./Fonts/DINNextLTPro-LightItalic.otf);
+}
+
+@font-face
+{
+font-family: Medium;
+src: url(./Fonts/DINNextLTPro-Medium.otf);
+}
+
+@font-face
+{
+font-family: MediumCond;
+src: url(./Fonts/DINNextLTPro-MediumCond.otf);
+}
+
+@font-face
+{
+font-family: MediumItalic;
+src: url(./Fonts/DINNextLTPro-MediumItalic.otf);
+}
+
+@font-face
+{
+font-family: Regular;
+src: url(./Fonts/DINNextLTPro-Regular.otf);
+}
+
+@font-face
+{
+font-family: UltraLight;
+src: url(./Fonts/DINNextLTPro-UltraLight.otf);
+}
+
+@font-face
+{
+font-family: UltraLightCond;
+src: url(./Fonts/DINNextLTPro-UltraLightCond.otf);
+}
+
+@font-face
+{
+font-family: UltraLightIt;
+src: url(./Fonts/DINNextLTPro-UltraLightIt.otf);
+}
+
+@font-face
+{
+font-family: Bold_0;
+src: url(./Fonts/DINNextLTPro-Bold_0.otf);
+}
+
+@font-face
+{
+font-family: Light_0;
+src: url(./Fonts/DINNextLTPro-Light_0.otf);
+}
+
+@font-face
+{
+font-family: Medium_0;
+src: url(./Fonts/DINNextLTPro-Medium_0.otf);
+}
+
+@font-face
+{
+font-family: Regular_0;
+src: url(./Fonts/DINNextLTPro-Regular_0.otf);
+}

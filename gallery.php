@@ -8,6 +8,7 @@
   <link href="./resources/css/bootstrap.css" rel="stylesheet">
   <link href="./resources/css/home.css" rel="stylesheet">
   <link href="./resources/css/gallery.css" rel="stylesheet">
+  <link href="./resources/fancybox/jquery.fancybox.css" rel="stylesheet">
   <title>Your Website</title>
 </head>
 
@@ -46,7 +47,7 @@
               <!--             Image first Row  -->
               <div class="row paddingTop20px">
                 <div class="span3">
-                  <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+                  <a href="./img/Gallery/b.jpg" class="fancybox" title="Sample title"><img src="./img/Gallery/a.jpg" /></a>
                 </div>
                 <div class="span3">
                  <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
@@ -150,6 +151,15 @@
 <!--     Script -->
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="./resources/js/bootstrap.min.js"></script>
+<script src="./resources/fancybox/jquery.fancybox.pack.js"></script>
+<script>
+$(document).ready(function() {
+  $('.fancybox').fancybox({
+    padding : 0,
+    openEffect  : 'elastic'
+  });
+});
+</script>
 
 
 </body>

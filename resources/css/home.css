@@ -41,11 +41,18 @@ body{
 }
 
 .footerSosMed{
-  margin-top: 5px;
+  margin-top: 25px;
+  height: 29px; 
+}
+
+
+a:link, a:active, a:visited{
+  color:#453221;
 }
 .footerText{
   float:left;
-  margin-top:25px 
+  margin-top:25px;
+  font-weight: bold;
 }
 
 

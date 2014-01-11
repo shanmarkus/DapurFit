@@ -42,7 +42,7 @@
           </div>
 
 
-          <div class="row margin-top20 padding-bottom70 line-weight1">
+          <div class="row margin-top20 padding-bottom70">
             <div class="contactus-content">
               <div class="span6"> <!-- CONTACT US FORM LEFT-->
                <form>
@@ -91,7 +91,7 @@
 
             <!-- Contact Us Detail -->
             <div class="span6"> <!-- RIGHT -->
-              <div class="left-border padding-left20">
+              <div class="left-border padding-left30 margin-left15">
                 <table style="width:100%; " >
 
                   <tr>

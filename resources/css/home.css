@@ -1,5 +1,6 @@
 body{
   color:#453221;
+  font-family:"din_next_lt_proregular"; 
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
@@ -110,6 +111,9 @@ a:link, a:active, a:visited{
 .margin-left20{
   margin-left: 20px;
 }
+.margin-left15{
+margin-left: 15px;
+}
 .margin-right20{
   margin-right: 20px;
 }
@@ -120,6 +124,9 @@ a:link, a:active, a:visited{
 }
 .padding-left20{
   padding-left: 20px
+}
+.padding-left30{
+  padding-left: 30px
 }
 .padding20{
   padding:20px;

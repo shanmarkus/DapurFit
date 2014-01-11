@@ -9,6 +9,8 @@
   <link href="./resources/css/home.css" rel="stylesheet">
   <link href="./resources/css/workout.css" rel="stylesheet">
   <link href="./resources/css/simpletextrotator.css" rel="stylesheet">
+  <link href="./resources/css/grayscale.css" rel="stylesheet">
+
   <title>Your Website</title>
 </head>
 
@@ -48,7 +50,7 @@
               <!--             Image first Row  -->
               <div class="row paddingTop20px">
                 <div class="span4">
-                  <img class="imageDiv" src="./img/Gallery/a.jpg">
+                  <img class="imageDiv grayscale" src="./img/Gallery/a.jpg">
                 </div>
                 <div class="span4">
                   <img class="imageDiv" src="./img/Gallery/b.jpg">

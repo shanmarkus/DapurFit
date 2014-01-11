@@ -1,3 +1,4 @@
+<?php $page="workout";?>
 <!DOCTYPE HTML>
 
 <html>
@@ -29,13 +30,13 @@
               <!--             Image first Row  -->
               <div class="row paddingTop20px">
                 <div class="span4">
-                  <img class="imageDiv grayscale" src="./img/Gallery/a.jpg">
+                  <img class="imageDiv grayscale" src="./resources/img/Gallery/a.jpg">
                 </div>
                 <div class="span4">
-                  <img class="imageDiv" src="./img/Gallery/b.jpg">
+                  <img class="imageDiv" src="./resources/img/Gallery/b.jpg">
                 </div>
                 <div class="span4">
-                  <img class="imageDiv" src="./img/Gallery/c.jpg">
+                  <img class="imageDiv" src="./resources/img/Gallery/c.jpg">
                 </div>
               </div>
 
@@ -43,13 +44,13 @@
 
               <div class="row paddingTop20px">
                 <div class="span4">
-                 <img class="imageDiv" src="./img/Gallery/a.jpg">
+                 <img class="imageDiv" src="./resources/img/Gallery/a.jpg">
                </div>
                <div class="span4">
-                <img class="imageDiv" src="./img/Gallery/b.jpg">
+                <img class="imageDiv" src="./resources/img/Gallery/b.jpg">
               </div>
               <div class="span4">
-               <img class="imageDiv" src="./img/Gallery/c.jpg">
+               <img class="imageDiv" src="./resources/img/Gallery/c.jpg">
              </div>
            </div>
 
@@ -57,13 +58,13 @@
 
            <div class="row paddingTop20px">
             <div class="span4">
-             <img class="imageDiv" src="./img/Gallery/a.jpg">
+             <img class="imageDiv" src="./resources/img/Gallery/a.jpg">
            </div>
            <div class="span4">
-             <img class="imageDiv"src="./img/Gallery/b.jpg">
+             <img class="imageDiv"src="./resources/img/Gallery/b.jpg">
            </div>
            <div class="span4">
-            <img class="imageDiv" src="./img/Gallery/c.jpg">
+            <img class="imageDiv" src="./resources/img/Gallery/c.jpg">
           </div>
         </div>
 

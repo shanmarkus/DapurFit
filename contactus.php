@@ -1,3 +1,4 @@
+<?php $page="contact";?>
 <!DOCTYPE HTML>
 
 <html>

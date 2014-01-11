@@ -7,12 +7,12 @@
             <div class="span12 home-navbar">
               <div class="tabbable"> <!-- Only required for left/right tabs -->
                 <ul class="nav nav-tabs">
-                  <li><a href="#tab1" data-toggle="tab">HOME</a></li>
-                  <li><a href="#tab2" data-toggle="tab">ABOUT</a></li>
-                  <li><a href="#tab2" data-toggle="tab">GALLERY</a></li>
-                  <li><a href="#tab2" data-toggle="tab">WORKOUT</a></li>
-                  <li><a href="#tab2" data-toggle="tab">PACKAGE INFO</a></li>
-                  <li  class="active"><a href="#tab2" data-toggle="tab">CONTACT</a></li>
+                  <li <?php if($page=="home")echo "class='active'";?>><a href="home.php" >HOME</a></li>
+                  <li <?php if($page=="about")echo "class='active'";?>><a href="aboutus.php" >ABOUT</a></li>
+                  <li <?php if($page=="gallery")echo "class='active'";?>><a href="gallery.php" >GALLERY</a></li>
+                  <li <?php if($page=="workout")echo "class='active'";?>><a href="workout.php" >WORKOUT</a></li>
+                  <li <?php if($page=="package-info")echo "class='active'";?>><a href="#" >PACKAGE INFO</a></li>
+                  <li <?php if($page=="contact")echo "class='active'";?>><a href="contactus.php" >CONTACT</a></li>
                 </ul>
 
               </div>

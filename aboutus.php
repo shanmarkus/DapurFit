@@ -1,3 +1,4 @@
+<?php $page="about";?>
 <!DOCTYPE HTML>
 
 <html>

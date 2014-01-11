@@ -1,3 +1,4 @@
+<?php $page="gallery";?>
 <!DOCTYPE HTML>
 
 <html>
@@ -31,21 +32,21 @@
 
                 <div class="span3">
                  <div class="view second-effect">
-                  <img src="./img/Gallery/a.jpg"/>
+                  <img src="resources/img/Gallery/a.jpg"/>
                   <div class="mask">
-                   <a href="./img/Gallery/b.jpg" class="fancybox" title="Sample title">Read More</a>
+                   <a href="resources/img/Gallery/b.jpg" class="fancybox" title="Sample title">Read More</a>
                  </div>
                </div>
              </div>
 
              <div class="span3">
-              <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
+              <img class="gallery-imageDiv" src="resources/img/Gallery/c.jpg">
             </div>
             <div class="span3">
-             <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
+             <img class="gallery-imageDiv" src="resources/img/Gallery/c.jpg">
            </div>
            <div class="span3">
-             <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+             <img class="gallery-imageDiv" src="resources/img/Gallery/d.jpg">
            </div>
          </div>
 
@@ -53,16 +54,16 @@
 
          <div class="row paddingTop20px">
           <div class="span3">
-           <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+           <img class="gallery-imageDiv" src="./resources/img/Gallery/a.jpg">
          </div>
          <div class="span3">
-           <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
+           <img class="gallery-imageDiv" src="./resources/img/Gallery/b.jpg">
          </div>
          <div class="span3">
-           <img class="gallery-imageDiv" src="./img/Gallery/c.jpg">
+           <img class="gallery-imageDiv" src="./resources/img/Gallery/c.jpg">
          </div>
          <div class="span3">
-          <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+          <img class="gallery-imageDiv" src="./resources/img/Gallery/d.jpg">
         </div>
       </div>
 
@@ -70,16 +71,16 @@
 
       <div class="row paddingTop20px">
         <div class="span3">
-         <img class="gallery-imageDiv" src="./img/Gallery/a.jpg">
+         <img class="gallery-imageDiv" src="./resources/img/Gallery/a.jpg">
        </div>
        <div class="span3">
-         <img class="gallery-imageDiv" src="./img/Gallery/b.jpg">
+         <img class="gallery-imageDiv" src="./resources/img/Gallery/b.jpg">
        </div>
        <div class="span3">
-         <img class="gallery-imageDiv"src="./img/Gallery/c.jpg">
+         <img class="gallery-imageDiv"src="./resources/img/Gallery/c.jpg">
        </div>
        <div class="span3">
-        <img class="gallery-imageDiv" src="./img/Gallery/d.jpg">
+        <img class="gallery-imageDiv" src="./resources/img/Gallery/d.jpg">
       </div>
     </div>
 

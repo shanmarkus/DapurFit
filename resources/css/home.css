@@ -2,7 +2,9 @@ body{
   color:#453221;
 }
 
-
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width:100%;
+}
 
 
 
@@ -147,7 +149,18 @@ a:link, a:active, a:visited{
 
 
 p.content-header{
-  font-weight: bold
+  font-family:'din_next_rounded_lt_probold';
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 12px;
+}
+p.about-content1{
+  font-family: "din_next_lt_proregular";
+  font-size: 19px;
+  line-height:1.3;
+}
+p > .italic{
+  font-style: italic;;
 }
 
 /*Contact*/
@@ -171,6 +184,7 @@ p.width11{
   border-color: rgb(175,209,38);
   border-radius: 5px;
   padding:18px;
+  margin-bottom: 20px;
 }
 
 .left-border{
@@ -178,7 +192,37 @@ p.width11{
 }
 
 
-
-
-
-
+/*ABOUT*/
+.font-normal-m{
+  font-family: "din_next_lt_probold";
+  display: inline;
+}
+.font-normal-b{
+  font-family: "din_next_lt_promedium";
+  display: inline;
+}
+.font-normal-mi{
+  font-family: "din_next_lt_promedium_italic";
+  display: inline;
+}
+.font-normal-r{
+  font-family: "din_next_lt_proregular";
+  display: inline;
+}
+.font-round-b{
+  font-family: "din_next_rounded_lt_probold";
+  display: inline;
+}
+.about-content{
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.color-green{
+  color:#bcd630;
+}
+.ft-sz-21{
+  font-size: 21px
+}
+.ft-sz-18{
+  font-size: 18px
+}

@@ -112,7 +112,7 @@ a:link, a:active, a:visited{
   margin-left: 20px;
 }
 .margin-left15{
-margin-left: 15px;
+  margin-left: 15px;
 }
 .margin-right20{
   margin-right: 20px;
@@ -203,11 +203,11 @@ p.width11{
 
 
 /*ABOUT*/
-.font-normal-m{
+.font-normal-b{
   font-family: "din_next_lt_probold";
   display: inline;
 }
-.font-normal-b{
+.font-normal-m{
   font-family: "din_next_lt_promedium";
   display: inline;
 }
@@ -258,6 +258,15 @@ p.width11{
 .ft-sz-23{
   font-size: 23px
 }
+
+.ft-sz-24{
+  font-size: 24px
+}
+
+.ft-sz-25{
+  font-size: 25px
+}
+
 .ft-sz-29{
   font-size: 29px
 }

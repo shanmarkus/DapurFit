@@ -1,5 +1,6 @@
 .gallery{
   min-height: 810px;
+  margin-top: 20px;
 }
 
 .gallery-imageDiv{
@@ -15,4 +16,13 @@
   text-align: center;
   box-shadow: 0px 0px 5px #aaa;
   cursor: default;
+}
+
+.image-container{
+  width: 215px;
+  float:left;
+  padding:10px;
+}
+.fancybox img{
+  border-radius:5px;
 }

@@ -16,7 +16,7 @@
             <div class="workout-title"><?php echo "SQUAT THAT ASS".$i?></div></br>
             <div class="workout-category">WORKOUT</div>
           </div>
-          <a class="fancybox " data-fancybox-group="gallery" title="Image<?php echo $i?> "href="<?php echo USERFILES ?>Images/image<?php echo $i?>.jpg">
+          <a href="<?php echo PATH."workoutdetails/#".$i;?>">
             <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/image<?php echo $i?>_thumb.jpg">
           </a>
         </div>

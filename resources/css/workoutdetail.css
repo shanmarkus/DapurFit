@@ -1,5 +1,6 @@
 .workoutdetail{
-  min-height: 845px;
+  /*min-height: 845px;*/
+  padding: 40px 0px;
 }
 
 .videoTitleDiv{
@@ -8,4 +9,8 @@
 
 .descriptionVideo{
   text-align: left;
+  margin: 20px 0px;
+}
+.discription-content{
+	margin-bottom: 80px;
 }

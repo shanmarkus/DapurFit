@@ -49,7 +49,7 @@
                 </div><!-- close row -->
                 <div class="row">
                   <div class="span3">
-                    <div class="row captchaBox">
+                    <div class="captchaBox">
                       <p class="font-normal-r">How much is 4 + 9 ?</p>
                       <input type="text" placeholder="Captcha">
                     </div>

@@ -4,8 +4,9 @@
   <link rel="stylesheet" href="<?php echo RESOURCES?>overeffects/common.css" type="text/css" media="screen"/>
   <link href="<?php echo RESOURCES?>hovereffects/secondeffect.css" rel="stylesheet">
   <div class="container">
-    <div class="gallery">
 
+    <div class="gallery">
+    <div class="row">
 
       <?php for($i=1;$i<13;$i++){?>
       <div class="image-container">
@@ -14,7 +15,23 @@
         </a>
       </div>
       <?php };?>
-
+  </div>
+    <div class="row">
+    <div class="span12">
+      <div class="pagination pagination-centered">
+        <ul>
+          <li><a href="#">Prev</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
 
     </div>
   </div><!-- /.Gallery -->

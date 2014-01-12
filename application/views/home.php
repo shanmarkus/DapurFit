@@ -2,17 +2,17 @@
       <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
           <div class="item active">
-            <img src="./resources/img/slider/a.jpg" alt="">
+            <img src="<?php echo RESOURCES?>img/slider/a.jpg" alt="">
             <div class="container">
             </div>
           </div>
           <div class="item">
-            <img src="./resources/img/slider/b.jpg" alt="">
+            <img src="<?php echo RESOURCES?>img/slider/b.jpg" alt="">
             <div class="container">
             </div>
           </div>
           <div class="item">
-            <img src="./resources/img/slider/c.jpg" alt="">
+            <img src="<?php echo RESOURCES?>/img/slider/c.jpg" alt="">
             <div class="container">
             </div>
           </div>

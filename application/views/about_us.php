@@ -73,7 +73,7 @@
     </div>
     <div class="span8">
       <div class="about-content">
-        <img src="resources/img/thinfatbig.png"/>
+        <img src="<?php echo RESOURCES?>/img/thinfatbig.png"/>
         <div class="font-round-b">
           We provide a tasty, sure-fire way to gain muscle and lose fat
         </div>

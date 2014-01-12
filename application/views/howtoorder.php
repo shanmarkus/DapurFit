@@ -4,7 +4,7 @@
           <!-- Top Image Header Breadcrumbs-->
           <div class="row">
             <div class="span12">
-              <img src="./img/how-to-order_07.png">
+              <img src="<?php echo RESOURCES?>img/how-to-order_07.png">
             </div>
           </div>
 
@@ -102,7 +102,7 @@
               <h4> Member's Benefits </h4>
               <div class="row">
                 <div class="span1">
-                  <img src="./img/how-to-order_15.png">
+                  <img src="<?php echo RESOURCES?>img/how-to-order_15.png">
                 </div>
                 <div class="span7">
                  <h5> Workout Consultation </h5>
@@ -111,7 +111,7 @@
              </div>
              <div class="row paddingTop20px">
               <div class="span1">
-                <img src="./img/how-to-order_18.png">
+                <img src="<?php echo RESOURCES?>img/how-to-order_18.png">
               </div>
               <div class="span7">
                 <h5> Workout Consultation </h5>
@@ -120,7 +120,7 @@
             </div>
             <div class="row paddingTop20px">
               <div class="span1">
-                <img src="./img/how-to-order_21.png">
+                <img src="<?php echo RESOURCES?>img/how-to-order_21.png">
               </div>
               <div class="span7">
                 <h5> Workout Consultation </h5>

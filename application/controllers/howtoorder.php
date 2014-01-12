@@ -19,7 +19,7 @@ class Howtoorder extends CI_Controller {
    */
   public function index()
   {
-    $data['page_title']= "Contact Us";
+    $data['page_title']= "Package-Info";
     $this->load->view('header',$data);
     $this->load->view('navigation',$data);
     $this->load->view('howtoorder');

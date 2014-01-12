@@ -1,5 +1,3 @@
-    </head>
-<body>
       <div class="navbar navbar-static-top home-header" role="navigation">
         <div class="container">
           <div class="row">
@@ -13,7 +11,7 @@
                   <li <?php if($page_title=="About Us")echo "class='active'";?>><a href=<?php echo PATH."about_us/"?>>ABOUT</a></li>
                   <li <?php if($page_title=="Gallery")echo "class='active'";?>><a href=<?php echo PATH."gallery/"?>>GALLERY</a></li>
                   <li <?php if($page_title=="Workout")echo "class='active'";?>><a href=<?php echo PATH."workout/"?> >WORKOUT</a></li>
-                  <li <?php if($page_title=="Package-info")echo "class='active'";?>><a href=<?php echo PATH."howtoorder/"?> >PACKAGE INFO</a></li>
+                  <li <?php if($page_title=="Package-Info")echo "class='active'";?>><a href=<?php echo PATH."howtoorder/"?> >PACKAGE INFO</a></li>
                   <li <?php if($page_title=="Contact Us")echo "class='active'";?>><a href=<?php echo PATH."contact_us/"?> >CONTACT</a></li>
                 </ul>
 

@@ -20,16 +20,16 @@
 
           <div class="footerSosMed">
             <b>For daily motivations, inspirations and tips  &nbsp;&nbsp;  :&nbsp;&nbsp;&nbsp;</b>
-            <img src="<?php echo RESOURCES ?>img/twitter.png"> &nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="<?php echo RESOURCES ?>img/instagram.png"> &nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="<?php echo RESOURCES ?>img/facebook.png"> &nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="<?php echo RESOURCES ?>img/v.png">
+            <a href="#"><img src="<?php echo RESOURCES ?>img/twitter.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><img src="<?php echo RESOURCES ?>img/instagram.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><img src="<?php echo RESOURCES ?>img/facebook.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><img src="<?php echo RESOURCES ?>img/v.png"></a>
           </div>
 
         </div>
         <div class="row">
           <div class="text-right">
-            <p><div class="footer-link"><div class="footer-powered"><b>Powered by : Giola</b></div><a href="#">Site Map</a> | <a href="#">Contact Us</a> | <a href="#"> Term of Use</a> | <a href="#">Privacy Policy</a> | &nbsp;</div></p>
+            <p><div class="footer-link"><div class="footer-powered"><b>Powered by : <a href="http://www.giolastudio.com" target="_blank">Giola</a></b></div><a href="#">Site Map</a> | <a href="#">Contact Us</a> | <a href="#"> Term of Use</a> | <a href="#">Privacy Policy</a> | &nbsp;</div></p>
           </div> 
         </div>
       </div>

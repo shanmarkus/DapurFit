@@ -222,6 +222,10 @@ p.width11{
   font-family: "din_next_lt_proregular";
   display: inline;
 }
+.font-round-r{
+  font-family: "din_next_rounded_lt_proRg";
+  display: inline;
+}
 .font-round-b{
   font-family: "din_next_rounded_lt_probold";
   display: inline;
@@ -232,6 +236,9 @@ p.width11{
 }
 .color-green{
   color:#bcd630;
+}
+.ft-sz-16{
+  font-size: 16px;
 }
 .ft-sz-18{
   font-size: 18px
@@ -259,5 +266,5 @@ p.width11{
 
 .contactus-content{
   line-height: 1.4;
-  font-size: 15px;
+  font-size: 16px;
 }

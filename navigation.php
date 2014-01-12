@@ -11,7 +11,7 @@
                   <li <?php if($page=="about")echo "class='active'";?>><a href="aboutus.php" >ABOUT</a></li>
                   <li <?php if($page=="gallery")echo "class='active'";?>><a href="gallery.php" >GALLERY</a></li>
                   <li <?php if($page=="workout")echo "class='active'";?>><a href="workout.php" >WORKOUT</a></li>
-                  <li <?php if($page=="package-info")echo "class='active'";?>><a href="#" >PACKAGE INFO</a></li>
+                  <li <?php if($page=="package-info")echo "class='active'";?>><a href="howtoorder.php" >PACKAGE INFO</a></li>
                   <li <?php if($page=="contact")echo "class='active'";?>><a href="contactus.php" >CONTACT</a></li>
                 </ul>
 

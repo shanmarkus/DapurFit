@@ -24,28 +24,25 @@
         <div class="container">
 
           <!-- Top Image Header Breadcrumbs-->
-          <div class="row paddingTop10px margin-left20px">
-            <div class="span11">
+          <div class="row">
+            <div class="span12">
               <img src="./img/how-to-order_07.png">
             </div>
           </div>
 
           <!-- We have more than 70 variants Image -->
-          <div class="row paddingTop20px margin-left20px">
-            <div class="span11">
+          <div class="row">
+            <div class="span12">
               <div class="box">
                 <div class="row">
-                  <div class="span7">
-                    <p>We have more than 70 variations of menu and keep adding the new ones </p>
-                    <p>Each menu are supervised by our health and nutrient expert </p>
+                  <div class="span7 text-center ft-sz-16" >
+                    <p class="font-round-b">We have more than 70 variations of menu and keep adding the new ones </p></br>
+                    <p class="font-round-r">Each menu are supervised by our health and nutrient expert </p>
                   </div>
-                  <div class="span1">
-                    <div class="verticalLine">
-                    </div>
-                  </div>
-                  <div class="span3">
-                    <p>We will costum your meal to</p>
-                    <p>fit your taste preferences </p>
+             
+                  <div class="span4 text-center ft-sz-16">
+                    <p class="font-round-b ">We will costum your meal to</p></br>
+                    <p class="font-round-r">fit your taste preferences </p>
                   </div>
                 </div>
               </div>
@@ -53,16 +50,16 @@
           </div>
 
           <!-- What Inside each dapurfit image -->
-          <div class="row paddingTop20px margin-left20px">
+          <div class="row">
 
-            <div class="span11">
+            <div class="span12">
 
               <div class="row">
-                <div class="span11">
-                  <div class="box">
+                <div class="span12">
+                  <div class="box ft-sz-16">
                     <div class="row">
-                      <div class="margin-left20px">
-                        <p> What's Inside each DapurFit box </p>
+                      <div class="span12">
+                        <p class="font-round-b ft-sz-18"> What's Inside each <img src""/> box </p>
                       </div>
                       <br>
                       <div class="span8">

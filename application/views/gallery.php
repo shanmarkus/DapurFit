@@ -1,37 +1,33 @@
-  <link href=<?php echo RESOURCES."css/gallery.css";?> rel="stylesheet">
+  <link href="<?php echo RESOURCES;?>css/gallery.css" rel="stylesheet">
   <link href="<?php echo RESOURCES?>fancybox/jquery.fancybox.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo RESOURCES?>hovereffects/style.css" type="text/css" media="screen"/>
   <link rel="stylesheet" href="<?php echo RESOURCES?>overeffects/common.css" type="text/css" media="screen"/>
   <link href="<?php echo RESOURCES?>hovereffects/secondeffect.css" rel="stylesheet">
   <div class="container">
-
     <div class="gallery">
-    <div class="row">
+      <div class="row">
 
-      <?php for($i=1;$i<13;$i++){?>
-      <div class="image-container">
-        <a class="fancybox " data-fancybox-group="gallery" title="Image<?php echo $i?> "href="<?php echo USERFILES ?>images/image<?php echo $i?>.jpg">
-          <img src="<?php echo USERFILES ?>images_thumb/image<?php echo $i?>_thumb.jpg">
-        </a>
+        <?php 
+
+        for($i=0;$i<count($images_url);$i++){?>
+        <div class="image-container">
+          <a class="fancybox " data-fancybox-group="gallery" title="<?php echo $captions[$i];?>" href="<?php echo USERFILES ?>images/<?php echo $images_url[$i];?>">
+            <img src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i]?>"/>
+          </a>
+        </div>
+
+
+        <?php }?>
+
       </div>
-      <?php };?>
-  </div>
-    <div class="row">
-    <div class="span12">
-      <div class="pagination pagination-centered">
-        <ul>
-          <li><a href="#">Prev</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">Next</a></li>
-        </ul>
+      <div class="row">
+        <div class="span12">
+          <div class="pagination pagination-centered">
+            <?php echo $alink;?>
+          </div>
+        </div>
+
       </div>
-    </div>
-    
-  </div>
 
     </div>
   </div><!-- /.Gallery -->
@@ -39,13 +35,13 @@
 
 <script src="<?php echo RESOURCES?>fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript">
-  
-    $(document).ready(function() {
+
+$(document).ready(function() {
       /*
        *  Simple image gallery. Uses default settings
        */
 
-      $('.fancybox').fancybox();
+       $('.fancybox').fancybox();
 
 
 
@@ -53,7 +49,7 @@
        *  Button helper. Disable animations, hide close button, change title type and content
        */
 
-      $('.fancybox-buttons').fancybox({
+       $('.fancybox-buttons').fancybox({
         openEffect  : 'none',
         closeEffect : 'none',
 
@@ -79,7 +75,7 @@
        *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
        */
 
-      $('.fancybox-thumbs').fancybox({
+       $('.fancybox-thumbs').fancybox({
         prevEffect : 'none',
         nextEffect : 'none',
 
@@ -98,6 +94,6 @@
 
 
 
-    });
+     });
   
-</script>
+  </script>

@@ -9,42 +9,39 @@
 
       <div class="row">
         <div class="span12">
-         <?php for($i=1;$i<10;$i++){?>
-         <div class="image-container ">
 
-          <div class="image-caption">
-            <div class="workout-title"><?php echo "SQUAT THAT ASS".$i?></div></br>
-            <div class="workout-category">WORKOUT</div>
+          <?php
+          for($i=0;$i<count($images_url);$i++){
+
+          ?>
+
+
+          <div class="image-container ">
+
+            <div class="image-caption">
+              <div class="workout-title"><?php echo $titles[$i];?></div></br>
+              <div class="workout-category">WORKOUT</div>
+            </div>
+            <a href="<?php echo PATH."workoutdetails/#".$i;?>">
+              <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i]?>">
+            </a>
           </div>
-          <a href="<?php echo PATH."workoutdetails/#".$i;?>">
-            <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/image<?php echo $i?>_thumb.jpg">
-          </a>
+          <?php };?>
         </div>
-        <?php };?>
+
       </div>
 
+
+
     </div>
+    <div class="row">
+      <div class="span12">
+       <div class="pagination pagination-centered">
+        <?php echo $alink;?>
+      </div>    </div>
 
-
-
-  </div>
-  <div class="row">
-    <div class="span12">
-      <div class="pagination pagination-centered">
-        <ul>
-          <li><a href="#">Prev</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">Next</a></li>
-        </ul>
-      </div>
     </div>
-
-  </div>
-</div><!-- /.Gallery -->
+  </div><!-- /.Gallery -->
 </div>
 
 <script src="<?php echo RESOURCES?>fancybox/jquery.fancybox.js"></script>

@@ -22,7 +22,7 @@
             <p class="font-round-r">Each menu are supervised by our health and nutrient expert </p>
           </div>
 
-          <div class="span4 text-center ft-sz-16">
+          <div class="span4 text-center ft-sz-16 border-left">
             <p class="font-round-b ">We will costum your meal to</p></br>
             <p class="font-round-r">fit your taste preferences </p>
           </div>
@@ -218,7 +218,7 @@ for you and put it on your meal boxes. Follow us too on Instagram, Twitter and F
         <div class="font-round-m ft-sz-13">1 boxex/day : 47.500 /box</div>
       </div>
       </br>
-      
+
     </div> <!-- close span6 -->
   </div> <!-- close row -->
 </div>

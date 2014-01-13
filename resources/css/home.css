@@ -32,7 +32,10 @@ body{
 .paddingTop30px{
   padding-top: 30px;
 }
-
+.paddingbt-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .marginBottom0px{
   margin-bottom: 0px !important;
@@ -198,6 +201,9 @@ p.width11{
   padding:18px;
   margin-bottom: 20px;
 }
+.border-left{
+  border-left: 1px;
+}
 
 .left-border{
   border-left: 1px solid rgb(175,209,38)
@@ -238,6 +244,9 @@ p.width11{
 }
 .color-green{
   color:#bcd630;
+}
+.ft-sz-13{
+  font-size: 13px;
 }
 .ft-sz-16{
   font-size: 16px;

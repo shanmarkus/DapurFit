@@ -1,4 +1,5 @@
 .howtoorder{
+	padding: 40px 20px 0px 0px;
   min-height: 810px;
 }
 
@@ -17,4 +18,7 @@
 
 .verticalLine {
     border-left: 1px solid black;
+}
+.border-left{
+	border-left: 1px solid rgb(175,209,38);;
 }

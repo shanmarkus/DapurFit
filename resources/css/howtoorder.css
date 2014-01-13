@@ -22,3 +22,17 @@
 .border-left{
 	border-left: 1px solid rgb(175,209,38);;
 }
+
+.benefits-image{
+	float: left;
+
+display: block;
+vertical-align: middle;
+}
+td.width40 {
+	width:40px;
+}
+
+.line-height1.5{
+	line-height: 1.5;
+}

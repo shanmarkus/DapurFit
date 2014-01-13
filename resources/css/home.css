@@ -142,7 +142,12 @@ a:link, a:active, a:visited{
 .paddinglr20{
   padding:0px 20px;
 }
-
+.padding-tb20{
+  padding: 20px 0px;
+}
+.padding-bottom20{
+  padding-bottom:20px;
+}
 
 
 
@@ -236,6 +241,10 @@ p.width11{
 }
 .font-round-b{
   font-family: "din_next_rounded_lt_probold";
+  display: inline;
+}
+.font-round-m{
+  font-family: "din_next_rounded_lt_promedium";
   display: inline;
 }
 .about-content{

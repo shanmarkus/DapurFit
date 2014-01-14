@@ -20,13 +20,29 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		
+
+		$this->load->database();
+		$query = $this->db->query('SELECT * FROM quote');
+		foreach ($query->result_array() as $row)
+		{
+			$informations[]=$row['information'];
+			$status[]=$row['status'];
+		}
+		for ($i=0 ; $i < count($status) ; $i++ ) {
+
+			if($status[$i]=="1"){
+				$status2[]=$status[$i];
+				$informations2[]=$informations[$i];
+			}
+		}
+		
+		$data['quotes']=$informations2;
+		
+
 		$data['page_title']= "Home";
 		$this->load->view('header',$data);
 		$this->load->view('navigation',$data);
 		$this->load->view('home');
-		$this->load->view('footer');
+		$this->load->view('footer',$data);
 	}
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

@@ -13,41 +13,41 @@
           <?php
           for($i=0;$i<count($images_url);$i++){
 
-          ?>
+            ?>
 
 
-          <div class="image-container ">
+            <div class="image-container ">
 
-            <div class="image-caption">
-              <div class="workout-title"><?php echo $titles[$i];?></div></br>
-              <div class="workout-category">WORKOUT</div>
+              <div class="image-caption">
+                <div class="workout-title"><?php echo $titles[$i];?></div></br>
+                <div class="workout-category">WORKOUT</div>
+              </div>
+              <a href="<?php echo PATH."workoutdetails/#".$i;?>">
+                <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i]?>">
+              </a>
             </div>
-            <a href="<?php echo PATH."workoutdetails/#".$i;?>">
-              <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i]?>">
-            </a>
+            <?php };?>
           </div>
-          <?php };?>
+
         </div>
 
+
+
       </div>
+      <div class="row">
+        <div class="span12">
+         <div class="pagination pagination-centered">
+          <?php echo $alink;?>
+        </div>    </div>
 
+      </div>
+    </div><!-- /.Gallery -->
+  </div>
 
+  <script src="<?php echo RESOURCES?>fancybox/jquery.fancybox.js"></script>
+  <script type="text/javascript">
 
-    </div>
-    <div class="row">
-      <div class="span12">
-       <div class="pagination pagination-centered">
-        <?php echo $alink;?>
-      </div>    </div>
-
-    </div>
-  </div><!-- /.Gallery -->
-</div>
-
-<script src="<?php echo RESOURCES?>fancybox/jquery.fancybox.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function() {
+  $(document).ready(function() {
       /*
        *  Simple image gallery. Uses default settings
        */

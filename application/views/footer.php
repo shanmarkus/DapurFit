@@ -1,20 +1,34 @@
  <div id="footer">
   <div class="container">
-    
+
 
     <div class="row">
-      <div class="span5">
+      <div class="span6">
         <div class="row">
 
           <img class="footerImage" src="<?php echo RESOURCES ?>img/footer.png"/>
-          <p class="footerText"><span class="rotate">30% Gym</span> <span class="spin">70% Diet</span>, ABS <span class="flipUp">made in</span>  kitchen</p>
+          <p class="footerText rotating">
+
+
+            <span class="flipUp">
+              <?php 
+              echo $quotes[0];
+              for($i=1 ; $i < count($quotes) ; $i++){
+                
+                 echo "<&> ".$quotes[$i];
+                
+              }
+              ?>
+
+            </span> 
+          </p>
 
         </div>
         <div class="row">
           <p class="copyright"> Copyright © 2013 DapurFit. All rights reserved.</p>
         </div>
       </div> <!-- close span5 -->
-      <div class="span7">
+      <div class="span6">
 
         <div class="row text-right">
 

@@ -35,7 +35,7 @@ class Gallery extends CI_Controller {
 
 
 
-    $gallery= $this->db->get('gallery', 8, $offset);
+    $gallery= $this->db->get('gallery', 12, $offset);
     foreach($gallery->result_array() as $gal){
       $images_url[]= $gal['media_url'];
       $captions[]=$gal['caption'];
@@ -44,7 +44,7 @@ class Gallery extends CI_Controller {
 
     $config["base_url"] = base_url() . "index.php/gallery/index/";
     $config["total_rows"] = count($images);
-    $config["per_page"] = 8;
+    $config["per_page"] = 12;
     $config['cur_tag_open'] = '<li><a>';
     $config['cur_tag_close'] = '</a></li>';
     $config['full_tag_open'] = '<ul>';
@@ -63,7 +63,23 @@ class Gallery extends CI_Controller {
     $data['alink'] = $this->pagination->create_links();
 
     //$header = array('ID', 'Caption', 'Date Published', 'Media Url', 'Media Type', 'Last Updated', 'Updated by', 'Status');
+    $this->load->database();
+    $query = $this->db->query('SELECT * FROM quote');
+    foreach ($query->result_array() as $row)
+    {
+      $informations[]=$row['information'];
+      $status[]=$row['status'];
+    }
+    for ($i=0 ; $i < count($status) ; $i++ ) {
 
+      if($status[$i]=="1"){
+        $status2[]=$status[$i];
+        $informations2[]=$informations[$i];
+      }
+    }
+    
+    $data['quotes']=$informations2;
+    
 
     $data['page_title']= "Gallery";
     $this->load->view('header',$data);

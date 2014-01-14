@@ -25,6 +25,23 @@ class Workout extends CI_Controller {
   public function index($offset =0 )
   {
     $this->load->database();
+    $query = $this->db->query('SELECT * FROM quote');
+    foreach ($query->result_array() as $row)
+    {
+      $informations[]=$row['information'];
+      $status[]=$row['status'];
+    }
+    for ($i=0 ; $i < count($status) ; $i++ ) {
+
+      if($status[$i]=="1"){
+        $status2[]=$status[$i];
+        $informations2[]=$informations[$i];
+      }
+    }
+    
+    $data['quotes']=$informations2;
+    
+    $this->load->database();
     $query = $this->db->query('SELECT * FROM workout');
     foreach ($query->result_array() as $row)
     {

@@ -39,7 +39,7 @@
       <div class="box">
         <div class="row">
           <div class="span12">
-            <p class="font-round-b ft-sz-18"> What's Inside each <img src=""/> box </p>
+            <p class="font-round-b ft-sz-18"> What's Inside each <img class="logo-howto" src="<?php echo RESOURCES?>img/logo-howto.png"/> box </p>
           </div>
         </div>
         <div class="row">

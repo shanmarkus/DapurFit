@@ -17,7 +17,7 @@
 }
 
 .verticalLine {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
 }
 .border-left{
 	border-left: 1px solid rgb(175,209,38);;
@@ -26,8 +26,8 @@
 .benefits-image{
 	float: left;
 
-display: block;
-vertical-align: middle;
+  display: block;
+  vertical-align: middle;
 }
 td.width40 {
 	width:40px;
@@ -35,4 +35,8 @@ td.width40 {
 
 .line-height1.5{
 	line-height: 1.5;
+}
+.logo-howto{
+  height: 28px;
+  vertical-align: bottom;
 }

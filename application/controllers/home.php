@@ -38,11 +38,29 @@ class Home extends CI_Controller {
 		
 		$data['quotes']=$informations2;
 		
+		$this->load->database();
+		$query = $this->db->query('SELECT * FROM slideshow');
+		foreach ($query->result_array() as $row)
+		{
+			$media_urls[]=$row['media_url'];
+			$slide_status[]=$row['status'];
+		}
+
+		for ($i=0 ; $i < count($slide_status) ; $i++ ) {
+
+			if($slide_status[$i]=="1"){
+				$status3[]=$slide_status[$i];
+				$media_urls2[]=$media_urls[$i];
+			}
+		}
+		$data['slideshow']=$media_urls2;
+
+
 
 		$data['page_title']= "Home";
 		$this->load->view('header',$data);
 		$this->load->view('navigation',$data);
-		$this->load->view('home');
+		$this->load->view('home',$data);
 		$this->load->view('footer',$data);
 	}
 }

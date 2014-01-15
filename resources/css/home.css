@@ -128,9 +128,7 @@ a:link, a:active, a:visited{
   background-repeat: no-repeat;
   background-position: center;
 }
-.text-center{
-  text-align: center;
-}
+
 .text-right{
   text-align: right;
 }

@@ -5,10 +5,13 @@
         <div class="quote1 box ">
 
           <div class="contactus-header font-normal-b color-green ft-sz-19">CONTACT US</div>
-          <div class="text-center">
-            <p class="font-normal-b ft-sz-22">THERE IS NO WAY YOU CAN OUT-BRAIN A BAD DIET</p></br></br>
-            <p class="font-normal-b ft-sz-23">EAT SMART, YOUR HEALTH DEPENDS ON YOU</p></br></br>
-            <p class="font-normal-b ft-sz-29">TELL US WHEN YOU'RE READY</p></br></br>
+          <div class="text-center box-contactus-margin">
+            </br>
+            
+            <div class="font-normal-b ft-sz-22">THERE IS NO WAY YOU CAN OUT-BRAIN A BAD DIET</div></br></br>
+            <div class="font-normal-b ft-sz-23">EAT SMART, YOUR HEALTH DEPENDS ON YOU</div></br></br>
+            <div class="font-normal-b ft-sz-29">TELL US WHEN YOU'RE READY</div></br></br></br>
+         
           </div>
 
         </div>

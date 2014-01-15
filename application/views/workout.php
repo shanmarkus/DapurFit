@@ -17,16 +17,16 @@
 
 
             <div class="image-container ">
-              <a href="<?php echo PATH."workoutdetails/#".$i;?>">
+              <a href="<?php echo PATH."workoutdetails/index/".$workout_id[$i];?>">
                 <div class="image-caption">
                   <div class="workout-title"><?php echo $titles[$i];?></div></br>
-                  <div class="workout-category">WORKOUT</div>
+                  <div class="workout-category"><?php echo $category[$i];?></div>
                 </div>
                 
-                <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i]?>">
+                <img class="grayscale" src="<?php echo USERFILES ?>images_thumb/thumb_<?php echo $images_url[$i];?>"/>
                 
               </div>
-              
+              </a>
               <?php };?>
             </div>
 

@@ -17,7 +17,7 @@ class Workoutdetails extends CI_Controller {
    * map to /index.php/welcome/<method_name>
    * @see http://codeigniter.com/user_guide/general/urls.html
    */
-  public function index()
+  public function index($offset=0)
   {
     $this->load->database();
     $query = $this->db->query('SELECT * FROM quote');
@@ -36,6 +36,24 @@ class Workoutdetails extends CI_Controller {
     
     $data['quotes']=$informations2;
     
+
+
+    $query = $this->db->query("SELECT * FROM workout WHERE pk_id_workout=$offset");
+    foreach ($query->result_array() as $row)
+    {
+      $workout_embedded_video=$row['embedded_video'];
+      $workout_title=$row['title'];
+      $workout_subtitle=$row['subtitle'];     
+      $workout_description=$row['description'];
+    }
+
+
+
+    $data['workout_embedded_video']=$workout_embedded_video;
+    $data['workout_title']=$workout_title;
+    $data['workout_subtitle']=$workout_subtitle;
+    $data['workout_description']=$workout_description;
+
     $data['page_title']= "Workout";
     $this->load->view('header',$data);
     $this->load->view('navigation',$data);

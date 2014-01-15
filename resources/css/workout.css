@@ -29,6 +29,11 @@
   font-family: 'din_next_lt_probold';
   color:#bcd630;
   font-size: 23px;
+  text-overflow: ellipsis !important;
+  width: 273px;
+  overflow: hidden;
+  height: 1.3em;
+  white-space: nowrap;
 }
 
 .workout-category{
@@ -41,7 +46,12 @@
   display: inline-block;
   font-family: 'din_next_lt_probold';
   color: #ffffff;
+  text-overflow: ellipsis !important;
+  width: 273px;
+  overflow: hidden;
   font-size: 23px;
+  height: 1.3em;
+  white-space: nowrap;
 }
 
 .image-container{

@@ -20,17 +20,23 @@
         <?php }?>
 
       </div>
-      <div class="row">
-        <div class="span12">
-          <div class="pagination pagination-centered">
-            <?php echo $alink;?>
-          </div>
-        </div>
 
+
+    </div>
+    <div class="row">
+      <div class="span12">
+        <div class="pagination pagination-centered">
+          <?php echo $alink;?>
+        </div>
       </div>
 
     </div>
+
+
+
+    
   </div><!-- /.Gallery -->
+
 </div>
 
 <script src="<?php echo RESOURCES?>fancybox/jquery.fancybox.js"></script>

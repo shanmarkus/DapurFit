@@ -9,16 +9,40 @@ body{
 
 .carousel{
   margin-bottom: 0px !important;
+  
+
 }
+input[type="text"]{
+  height:35px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  min-width: 940px;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover{
+  border: 1px solid white;
+  background-color: white;
 
-
+}
+.submit-btn:hover, .submit-btn:focus{
+  background-position:0 0 !important;
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+  background-color:#ffffff;
+  box-shadow: :0px 0px 0px rgba(0, 0, 0, 0.0) inset !important;
+  -webkit-box-shadow:inset 0 3px 8px rgba(0, 0, 0, 0.0) !important;
+}
 .home-navbar {
   font-family:'din_next_rounded_lt_probold';
   font-size: 18px;
+  margin-bottom: 1px;
 
 }
 .home-header {
   background-color:rgb(175,209,38);
+}
+
+.navbar .nav > li > a{
+  text-shadow:0 0px 0 #ffffff;
 }
 
 .paddingTop10px{
@@ -40,14 +64,16 @@ body{
 .marginBottom0px{
   margin-bottom: 0px !important;
 }
-
+.padding-5{
+  padding: 5px
+}
 
 
 /*Footer*/
 #footer {
   height: 90px;
   background-color:rgb(175,209,38);
-
+  
 }
 
 .footerImage{
@@ -72,6 +98,7 @@ a:link, a:active, a:visited{
   float:left;
   margin-top:25px;
   font-weight: bold;
+  width: 360px;
 }
 .footer-link{
   font-family: "din_next_lt_promedium"
@@ -85,6 +112,9 @@ a:link, a:active, a:visited{
 .margin-bottom-40{
   margin-bottom: 40px;
 }
+.nav-tabs{
+  border-bottom: 0px solid #ddd
+}
 
 .nav-tabs > li {
   padding: 0px 22px !important;
@@ -92,6 +122,7 @@ a:link, a:active, a:visited{
 
 .header-logo{
   margin-top: 15px;
+  margin-bottom: 20px;
   background-image: url('../img/logo.png');
   height:60px;
   background-repeat: no-repeat;

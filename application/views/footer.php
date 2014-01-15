@@ -7,7 +7,7 @@
         <div class="row">
 
           <img class="footerImage" src="<?php echo RESOURCES ?>img/footer.png"/>
-          <p class="footerText rotating">
+          <div class="footerText rotating">
 
 
             <span class="flipUp">
@@ -21,7 +21,7 @@
               ?>
 
             </span> 
-          </p>
+          </div>
 
         </div>
         <div class="row">

@@ -2,7 +2,10 @@ body{
   color:#453221;
   font-family:"din_next_lt_proregular"; 
 }
-
+.flipUp{
+  width:380px;
+  white-space: nowrap;
+}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
   width:100%;
 }

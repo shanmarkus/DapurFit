@@ -72,7 +72,7 @@ $(document).ready(function(){
           });
           $(".footerText .flipUp").textrotator({
             animation: "flipUp",
-            speed: 1750
+            speed: 2000
           });
           $(".footerText .spin").textrotator({
             animation: "spin",

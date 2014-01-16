@@ -59,7 +59,7 @@
                       <p class="font-normal-r">How much is 4 + 9 ?</p>
                     </td>
                     <td rowspan="2">
-                      <button class="submit-btn btn span2" style="height:60px; width:200px; background-image:url(<?PHP echo RESOURCES?>img/submit-btn.jpg);" type="submit"></button>
+                      <button class="submit-btn btn span2" type="submit"></button>
                     </td>
                   </tr>
                   <tr>

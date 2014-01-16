@@ -2,6 +2,7 @@ body{
   color:#453221;
   font-family:"din_next_lt_proregular"; 
 }
+
 .wrapper{
   min-width: 1024px;
   margin-left: auto;
@@ -17,11 +18,12 @@ body{
 
 .carousel{
   margin-bottom: 0px !important;
-  
-
 }
 input[type="text"]{
   height:35px;
+}
+select{
+  height: 45px;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
   min-width: 940px;
@@ -32,8 +34,20 @@ input[type="text"]{
 
 }
 .submit-btn:hover, .submit-btn:focus{
-  background-position:0 0 !important;
+  background-position:center!important;
+  background-color: rgb(175,209,38);
+  opacity: 0.9;
 }
+.submit-btn{
+  height:60px; 
+  background-repeat: no-repeat;
+  background-color: rgb(175,209,38);
+  background-position: center;
+  width:217px; 
+  background-image:url('../img/Contact_03.png'); 
+  background-size: 34px;
+}
+
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
   background-color:#ffffff;
   box-shadow: :0px 0px 0px rgba(0, 0, 0, 0.0) inset !important;

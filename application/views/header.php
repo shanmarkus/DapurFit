@@ -13,3 +13,4 @@
       <title><?php echo $page_title?></title>
     </head>
     <body>
+      <div class="wrapper">

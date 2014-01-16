@@ -1,34 +1,34 @@
  <div id="footer">
   <div class="container">
+    <div class="span12">
+
+      <div class="row">
+        <div class="" style="float:left">
+          <div class="row">
+
+            <img class="footerImage" src="<?php echo RESOURCES ?>img/footer.png"/>
+            <div class="footerText rotating">
 
 
-    <div class="row">
-      <div class="span6">
-        <div class="row">
+              <span class="flipUp">
+                <?php 
+                echo $quotes[0];
+                for($i=1 ; $i < count($quotes) ; $i++){
 
-          <img class="footerImage" src="<?php echo RESOURCES ?>img/footer.png"/>
-          <div class="footerText rotating">
-
-
-            <span class="flipUp">
-              <?php 
-              echo $quotes[0];
-              for($i=1 ; $i < count($quotes) ; $i++){
-                
                  echo "<&> ".$quotes[$i];
-                
-              }
-              ?>
 
-            </span> 
-          </div>
+               }
+               ?>
 
-        </div>
-        <div class="row">
+             </span> 
+           </div>
+
+         </div>
+         <div class="row">
           <p class="copyright"> Copyright © 2013 DapurFit. All rights reserved.</p>
         </div>
       </div> <!-- close span5 -->
-      <div class="span6">
+      <div class="" style="float:right">
 
         <div class="row text-right">
 
@@ -46,12 +46,14 @@
             <p><div class="footer-link"><div class="footer-powered"><b>Powered by : <a href="http://www.giolastudio.com" target="_blank">Giola</a></b></div><a href="#">Site Map</a> | <a href="#">Contact Us</a> | <a href="#"> Term of Use</a> | <a href="#">Privacy Policy</a> | &nbsp;</div></p>
           </div> 
         </div>
+
+
       </div>
     </div>
-    
   </div>
 </div>
-
+</div>
+</div>
 
 <script src=<?php echo RESOURCES.'js/jquery.simple-text-rotator.js' ?>></script>
 <script>

@@ -2,6 +2,11 @@ body{
   color:#453221;
   font-family:"din_next_lt_proregular"; 
 }
+.wrapper{
+  min-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .flipUp{
   width:380px;
   white-space: nowrap;
